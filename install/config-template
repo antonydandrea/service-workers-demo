@@ -1,0 +1,11 @@
+{
+    "dbsettings": 
+    [
+        {
+            "user": "",
+            "password": "",
+            "server": "localhost",
+            "database": "todoDB"
+        }
+    ]
+}
