@@ -19,3 +19,7 @@ h1 {
     width: 400px;
     margin-right: 20px;
 }
+
+.todo_item {
+    display: inline-block;
+}
