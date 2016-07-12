@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `list`
+-- Table structure for table `items`
 --
 
-DROP TABLE IF EXISTS `list`;
+DROP TABLE IF EXISTS `items`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `list` (
+CREATE TABLE `items` (
   `pk` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `item` varchar(255) NOT NULL,
   `done_status` bit(1) NOT NULL DEFAULT b'0',
@@ -32,12 +32,12 @@ CREATE TABLE `list` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `list`
+-- Dumping data for table `items`
 --
 
-LOCK TABLES `list` WRITE;
-/*!40000 ALTER TABLE `list` DISABLE KEYS */;
-/*!40000 ALTER TABLE `list` ENABLE KEYS */;
+LOCK TABLES `items` WRITE;
+/*!40000 ALTER TABLE `items` DISABLE KEYS */;
+/*!40000 ALTER TABLE `items` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-07-12 19:38:25
+-- Dump completed on 2016-07-12 20:21:24

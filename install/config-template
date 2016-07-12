@@ -4,7 +4,7 @@
         {
             "user": "",
             "password": "",
-            "server": "localhost",
+            "host": "localhost",
             "database": "todoDB"
         }
     ]
