@@ -25,20 +25,11 @@ DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
   `pk` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `item` varchar(255) NOT NULL,
-  `done_status` bit(1) NOT NULL DEFAULT b'0',
+  `done_status` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`pk`),
   UNIQUE KEY `pk_UNIQUE` (`pk`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `items`
---
-
-LOCK TABLES `items` WRITE;
-/*!40000 ALTER TABLE `items` DISABLE KEYS */;
-/*!40000 ALTER TABLE `items` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -49,4 +40,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-07-12 20:21:24
+-- Dump completed on 2016-07-13  6:05:35
